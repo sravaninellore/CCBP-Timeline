@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.project-container {
+  width: 100%;
+}
+
+.project-image-container {
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+}
+
+.project-url {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-url {
+    font-size: 13px;
+    margin: 0px;
+  }
+}

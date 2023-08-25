@@ -1,0 +1,49 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.my-journey {
+  text-align: center;
+  font-weight: 500;
+  color: #171f46;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.ccbp {
+  text-align: center;
+  color: #2b237c;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chrono-container {
+  width: 70%;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 767px) {
+  .my-journey {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .ccbp {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .chrono-container {
+    width: 100%;
+  }
+}
